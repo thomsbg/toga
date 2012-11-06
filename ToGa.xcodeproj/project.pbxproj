@@ -18,6 +18,8 @@
 		25AB29E115E328AC004096CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AB29C815E328AB004096CC /* Foundation.framework */; };
 		25AB29E915E328AC004096CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25AB29E715E328AC004096CC /* InfoPlist.strings */; };
 		25AB29EC15E328AC004096CC /* ToGaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AB29EB15E328AC004096CC /* ToGaTests.m */; };
+		25AB29F915E3403C004096CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AB29F715E3403C004096CC /* ViewController.m */; };
+		25AB29FA15E3403C004096CC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25AB29F815E3403C004096CC /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		25AB29E815E328AC004096CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25AB29EA15E328AC004096CC /* ToGaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToGaTests.h; sourceTree = "<group>"; };
 		25AB29EB15E328AC004096CC /* ToGaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToGaTests.m; sourceTree = "<group>"; };
+		25AB29F515E3290B004096CC /* ToGa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ToGa.entitlements; sourceTree = "<group>"; };
+		25AB29F615E3403C004096CC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25AB29F715E3403C004096CC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25AB29F815E3403C004096CC /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 		25AB29CC15E328AB004096CC /* ToGa */ = {
 			isa = PBXGroup;
 			children = (
+				25AB29F615E3403C004096CC /* ViewController.h */,
+				25AB29F715E3403C004096CC /* ViewController.m */,
+				25AB29F815E3403C004096CC /* ViewController.xib */,
+				25AB29F515E3290B004096CC /* ToGa.entitlements */,
 				25AB29D515E328AB004096CC /* AppDelegate.h */,
 				25AB29D615E328AB004096CC /* AppDelegate.m */,
 				25AB29CD15E328AB004096CC /* Supporting Files */,
@@ -215,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25AB29D115E328AB004096CC /* InfoPlist.strings in Resources */,
+				25AB29FA15E3403C004096CC /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +262,7 @@
 			files = (
 				25AB29D315E328AB004096CC /* main.m in Sources */,
 				25AB29D715E328AB004096CC /* AppDelegate.m in Sources */,
+				25AB29F915E3403C004096CC /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +361,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToGa/ToGa-Prefix.pch";
 				INFOPLIST_FILE = "ToGa/ToGa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -360,6 +373,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToGa/ToGa-Prefix.pch";
 				INFOPLIST_FILE = "ToGa/ToGa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
